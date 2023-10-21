@@ -59,9 +59,7 @@ body {
   border-radius: 15%;
   text-align: center;
 }
-.new-colors:hover {
-  box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fffb00, 0 0 20px #fffb00, 0 0 25px #fffb00;
-}
 .new-colors:active {
-  box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #db4f1c, 0 0 20px #db4f1c, 0 0 25px #db4f1c;
+  width: 78px;
+  height: 39px;
 }/*# sourceMappingURL=styles.css.map */
