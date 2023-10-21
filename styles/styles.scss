@@ -1,0 +1,47 @@
+@mixin centerFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin tempBorder {
+    border: 5px solid red;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    @include centerFlex();
+    justify-content: start;
+    flex-direction: column;
+}
+
+.title {
+    @include centerFlex();
+    @include tempBorder();
+    font-size: 45px;
+    margin-top: 10%;
+}
+
+.output-select {
+    @include centerFlex();
+    @include tempBorder();
+    margin: 15px;
+
+}
+
+.circles-container {
+    @include centerFlex();
+    @include tempBorder();
+    width: 90%;
+    height: 20vh;
+    justify-content: space-around;
+}
+.circle {
+    height: 10vh;
+    width: 10vh;
+    border-radius: 100%;
+    border: 1px solid black;
+    background-color: rgb(190,138,64);
+}
