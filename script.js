@@ -7,6 +7,7 @@ const circle = document.querySelectorAll('.circle')
 const valueDisplay = document.querySelector('.value-display')
 const outcomeDisplay = document.querySelector('.outcome')
 
+
 function changeOutput() {
 
 }
@@ -31,7 +32,7 @@ function generateColors() {
     return colors
 }
 
-randomColors = generateColors()
+let randomColors = generateColors()
 console.log(randomColors)
 
 function updateCircles() {
@@ -47,7 +48,7 @@ function randomIntFromInterval(min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min)
   }
 
-  const randomInt = randomIntFromInterval(0,4)
+const randomInt = randomIntFromInterval(0,4)
 
 function displayValue() {
     const correctColor = randomColors[randomInt]
